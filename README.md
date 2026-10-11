@@ -101,4 +101,4 @@ The app runs at `http://localhost:5173`.
 ## Author
 
 **<Your Name>**
-GitHub: [@<your-username>](https://github.com/<your-username>)
+GitHub: [@<Rahesu>](https://github.com/<Rahesu>)
