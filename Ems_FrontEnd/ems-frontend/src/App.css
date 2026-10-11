@@ -1,0 +1,22 @@
+/* App.css: header and footer */
+
+header .navbar {
+  padding: 14px 24px;
+}
+
+header .navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Footer sits at the bottom of the page instead of floating over the table */
+.footer {
+  position: static;
+  margin-top: auto;
+  width: 100%;
+  height: auto;
+  padding: 14px 0;
+  background: #212529;
+  color: #fff;
+  text-align: center;
+}

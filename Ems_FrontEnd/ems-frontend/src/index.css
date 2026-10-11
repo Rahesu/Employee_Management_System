@@ -1,0 +1,62 @@
+/* index.css: minimal base styles. Bootstrap handles buttons, tables, forms. */
+
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #f5f6fa;
+}
+
+/* Full-height column: header on top, content in the middle, footer at the bottom */
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page content */
+.container {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Table */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.08);
+  margin-bottom: 0;
+}
+
+.table th {
+  background: #212529;
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Space between Update and Delete when they are in the same cell */
+.table td .btn + .btn {
+  margin-left: 8px;
+}
+
+.btn {
+  border-radius: 6px;
+}

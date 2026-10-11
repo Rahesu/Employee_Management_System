@@ -1,0 +1,40 @@
+# ---------- Frontend (React / Node) ----------
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# ---------- Backend (Spring Boot / Java) ----------
+target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.gradle/
+*.class
+*.jar
+*.war
+HELP.md
+
+# ---------- Secrets (never commit these) ----------
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+
+# ---------- IDE / OS ----------
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.sts4/
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+logs/
