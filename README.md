@@ -4,10 +4,9 @@ A full-stack web application for managing employee records. Users can view, add,
 
 - **Frontend:** React (Vite) + Bootstrap
 - **Backend:** Spring Boot (Java) REST API
-- **Database:** MySQL <!-- change if you use H2, PostgreSQL, etc. -->
+- **Database:** MySQL 
 
-<!-- Add a screenshot: save it as docs/screenshot.png, then uncomment the line below -->
-<!-- ![Employee list](docs/screenshot.png) -->
+Employee list](docs/screenshot.png) 
 
 ## Features
 
